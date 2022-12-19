@@ -94,6 +94,7 @@
            @dragstart="handleDragStart($event,item)"
            @dragover="handleDragOver($event,item)"
            @drop="handleDropZone($event,item)"
+           @click="handleClickFile($event,item)"
            :class="'vf-item-' + randId"
            class="border border-transparent hover:bg-neutral-50 m-1 dark:hover:bg-gray-700 inline-flex w-[5.5rem] h-20 md:w-24 text-center justify-center select-none"
            v-for="(item, index) in getItems(false)" :data-type="item.type" :data-item="JSON.stringify(item)" :data-index="index">
@@ -213,13 +214,13 @@ const handleTouchStart = (event) => {
 const delayedOpenItem = ($event) => {
   touchTimeOut = setTimeout(() =>  {
     const cmEvent = new MouseEvent("contextmenu", {
-        bubbles: true,
-        cancelable: false,
-        view: window,
-        button: 2,
-        buttons: 0,
-        clientX: $event.target.getBoundingClientRect().x,
-        clientY: $event.target.getBoundingClientRect().y
+      bubbles: true,
+      cancelable: false,
+      view: window,
+      button: 2,
+      buttons: 0,
+      clientX: $event.target.getBoundingClientRect().x,
+      clientY: $event.target.getBoundingClientRect().y
     });
     $event.target.dispatchEvent(cmEvent);
 
@@ -349,6 +350,10 @@ const setDragSelect = () => {
     emitter.emit('vf-nodes-selected', getSelectedItems());
     selectedCount.value = ds.value.getSelection().length;
   })
+};
+
+const handleClickFile = (e, item) => {
+  emitter.emit('vf-file-select', item);
 };
 
 onMounted(setDragSelect)

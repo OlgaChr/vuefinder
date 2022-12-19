@@ -67,6 +67,9 @@ const props = defineProps({
     default: {}
   }
 });
+
+const emit = defineEmits(['change'])
+
 const emitter = mitt();
 const {setStore, getStore} = useStorage(props.id);
 const adapter =ref(getStore('adapter'));
@@ -138,6 +141,10 @@ let controller;
 emitter.on('vf-fetch-abort', () => {
   controller.abort();
   loadingState.value = false;
+});
+
+emitter.on('vf-file-select', (item) => {
+  emit('change', item)
 });
 
 emitter.on('vf-fetch', ({params, onSuccess = null, onError = null}) => {
