@@ -2719,7 +2719,7 @@ const Ri = { class: "relative flex-auto flex flex-col overflow-hidden" }, Hi = {
       h("div", {
         onTouchstart: B,
         onContextmenu: V[10] || (V[10] = Ze((j) => _(r).emit("vf-contextmenu-show", { event: j, area: v.value, items: re() }), ["self", "prevent"])),
-        class: ue([M.value ? "" : "resize-y", "h-full w-full text-xs vf-selector-area min-h-[150px] overflow-auto p-1 z-0"]),
+        class: ue([M.value ? "" : "resize-y", "h-full w-full text-xs vf-selector-area min-h-[550px] overflow-auto p-1 z-0"]),
         ref_key: "selectorArea",
         ref: v
       }, [
