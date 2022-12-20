@@ -17,7 +17,7 @@ Vuefinder is a file manager component for Vue.js version 3
 
 
 ```bash
-npm i vuefinder
+npm i @olgachr/s3manager
 ```
 
 JS entry point (it can be index.js or main.js)
@@ -25,8 +25,8 @@ JS entry point (it can be index.js or main.js)
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import 'vuefinder/dist/style.css'
-import VueFinder from 'vuefinder/dist/vuefinder'
+import '@olgachr/s3manager/dist/style.css'
+import VueFinder from '@olgachr/s3manager/dist/vuefinder'
 
 const app = createApp(App)
 
@@ -53,6 +53,9 @@ Html
 | locale        | string  | en      | optional - default language code       |
 | dark          | boolean | false   | optional - makes theme dark as default |
 | max-file-size | string  | 10mb    | optional - client side max file upload |
+
+### Events
+@change - return selected file item
 
 ### Features 
 - Multi adapter/storage (see https://github.com/thephpleague/flysystem)

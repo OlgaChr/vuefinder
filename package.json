@@ -1,5 +1,5 @@
 {
-  "name": "s3manager",
+  "name": "@olgachr/s3manager",
   "version": "1.0.3",
   "description": "s3manager is a file manager component for vuejs.",
   "type": "module",
