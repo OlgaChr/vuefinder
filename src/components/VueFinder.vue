@@ -9,7 +9,6 @@
         <v-f-toolbar :data="fetchData" />
         <v-f-breadcrumb :data="fetchData"/>
         <v-f-explorer :view="view" :data="fetchData"/>
-        <v-f-statusbar :data="fetchData"/>
       </div>
 
       <component v-if="modal.active" :is="'v-f-modal-'+ modal.type" :selection="modal.data" :current="fetchData"/>
