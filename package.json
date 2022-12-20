@@ -1,6 +1,6 @@
 {
   "name": "s3manager",
-  "version": "1",
+  "version": "1.0.1",
   "description": "s3manager is a file manager component for vuejs.",
   "type": "module",
   "files": [

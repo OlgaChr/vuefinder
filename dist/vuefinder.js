@@ -2719,7 +2719,7 @@ const Ri = { class: "relative flex-auto flex flex-col overflow-hidden" }, Hi = {
       h("div", {
         onTouchstart: B,
         onContextmenu: V[10] || (V[10] = Ze((j) => _(r).emit("vf-contextmenu-show", { event: j, area: v.value, items: re() }), ["self", "prevent"])),
-        class: ue([M.value ? "" : "resize-y", "h-full w-full text-xs vf-selector-area min-h-[550px] overflow-auto p-1 z-0"]),
+        class: ue([M.value ? "" : "resize-y", "h-full w-full text-xs vf-selector-area min-h-[550px] max-h-[80vh] overflow-auto p-1 z-0"]),
         ref_key: "selectorArea",
         ref: v
       }, [
@@ -2799,7 +2799,7 @@ const Ri = { class: "relative flex-auto flex flex-col overflow-hidden" }, Hi = {
       Me(An)
     ]));
   }
-}), Ma = "1", Ea = { class: "p-1 text-xs border-t border-neutral-300 dark:border-gray-700/50 flex justify-between select-none" }, $a = { class: "flex leading-5 items-center" }, Ta = ["aria-label"], Aa = /* @__PURE__ */ h("svg", {
+}), Ma = "1.0.1", Ea = { class: "p-1 text-xs border-t border-neutral-300 dark:border-gray-700/50 flex justify-between select-none" }, $a = { class: "flex leading-5 items-center" }, Ta = ["aria-label"], Aa = /* @__PURE__ */ h("svg", {
   xmlns: "http://www.w3.org/2000/svg",
   class: "h-5 w-5",
   fill: "none",
