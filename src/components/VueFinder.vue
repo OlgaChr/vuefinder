@@ -32,7 +32,6 @@ import {useStorage} from '../composables/useStorage.js';
 import {useApiUrl} from '../composables/useApiUrl.js';
 import VFToolbar from '../components/Toolbar.vue';
 import VFExplorer from '../components/Explorer.vue';
-import VFStatusbar from '../components/Statusbar.vue';
 import VFBreadcrumb from '../components/Breadcrumb.vue';
 import VFContextMenu from '../components/ContextMenu.vue';
 import {useI18n} from '../composables/useI18n.js';

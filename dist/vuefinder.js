@@ -1,4 +1,4 @@
-import { ref as L, watch as je, inject as P, openBlock as _, createElementBlock as C, createElementVNode as p, unref as x, normalizeClass as dt, createTextVNode as nt, toDisplayString as E, createCommentVNode as X, createVNode as Tt, TransitionGroup as _n, withCtx as Z, Fragment as ut, renderList as Dt, reactive as Ie, onMounted as Ct, onUpdated as xn, withDirectives as $t, vShow as Me, withModifiers as Zt, nextTick as ze, customRef as kn, withKeys as oe, isRef as Dn, vModelText as ie, normalizeStyle as Jr, provide as Yt, createBlock as G, resolveDynamicComponent as Cn, renderSlot as Ze } from "vue";
+import { ref as L, watch as je, inject as P, openBlock as _, createElementBlock as C, createElementVNode as p, unref as x, normalizeClass as ht, createTextVNode as nt, toDisplayString as E, createCommentVNode as X, createVNode as Tt, TransitionGroup as _n, withCtx as Z, Fragment as dt, renderList as Dt, reactive as Ie, onMounted as Ct, onUpdated as xn, withDirectives as $t, vShow as Me, withModifiers as Zt, nextTick as ze, customRef as kn, withKeys as oe, isRef as Dn, vModelText as ie, normalizeStyle as Jr, provide as Yt, createBlock as G, resolveDynamicComponent as Cn, renderSlot as Ze } from "vue";
 import pe from "plupload";
 var Gr;
 const Le = (Gr = document.querySelector('meta[name="csrf-token"]')) == null ? void 0 : Gr.getAttribute("content"), Oe = (e, { method: t = "get", params: r = {}, json: n = !0, signal: a = null }) => {
@@ -206,7 +206,7 @@ const Mn = { class: "border-neutral-300 flex justify-between items-center py-1 t
         }, [
           (_(), C("svg", {
             xmlns: "http://www.w3.org/2000/svg",
-            class: dt([l.value.length == 1 ? "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300" : "stroke-gray-200  dark:stroke-gray-700", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
+            class: ht([l.value.length == 1 ? "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300" : "stroke-gray-200  dark:stroke-gray-700", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
             fill: "none",
             viewBox: "0 0 24 24",
             stroke: "none",
@@ -222,7 +222,7 @@ const Mn = { class: "border-neutral-300 flex justify-between items-center py-1 t
         }, [
           (_(), C("svg", {
             xmlns: "http://www.w3.org/2000/svg",
-            class: dt([l.value.length ? "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300" : "stroke-gray-200  dark:stroke-gray-700", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
+            class: ht([l.value.length ? "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300" : "stroke-gray-200  dark:stroke-gray-700", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
             fill: "none",
             viewBox: "0 0 24 24",
             stroke: "none",
@@ -246,7 +246,7 @@ const Mn = { class: "border-neutral-300 flex justify-between items-center py-1 t
         }, [
           (_(), C("svg", {
             xmlns: "http://www.w3.org/2000/svg",
-            class: dt([l.value.length ? "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300" : "stroke-gray-200  dark:stroke-gray-700", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
+            class: ht([l.value.length ? "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300" : "stroke-gray-200  dark:stroke-gray-700", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
             fill: "none",
             viewBox: "0 0 24 24",
             stroke: "none",
@@ -262,7 +262,7 @@ const Mn = { class: "border-neutral-300 flex justify-between items-center py-1 t
         }, [
           (_(), C("svg", {
             xmlns: "http://www.w3.org/2000/svg",
-            class: dt([l.value.length ? "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300" : "stroke-gray-200  dark:stroke-gray-700", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
+            class: ht([l.value.length ? "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300" : "stroke-gray-200  dark:stroke-gray-700", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
             fill: "none",
             viewBox: "0 0 24 24",
             stroke: "none",
@@ -280,7 +280,7 @@ const Mn = { class: "border-neutral-300 flex justify-between items-center py-1 t
         }, [
           (_(), C("svg", {
             xmlns: "http://www.w3.org/2000/svg",
-            class: dt([d.value.length ? "stroke-gray-200  dark:stroke-gray-700" : "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
+            class: ht([d.value.length ? "stroke-gray-200  dark:stroke-gray-700" : "cursor-pointer stroke-gray-500 hover:stroke-cyan-700 dark:stroke-gray-400 dark:hover:stroke-gray-300", "h-6 w-6 md:h-8 md:w-8 m-auto"]),
             fill: "none",
             viewBox: "0 0 24 24",
             stroke: "none",
@@ -452,7 +452,7 @@ var uo = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }
     function k(u) {
       if (Array.isArray(u))
-        return ht(u);
+        return ft(u);
     }
     function z(u) {
       if (Array.isArray(u))
@@ -484,15 +484,15 @@ var uo = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     function rt(u, c) {
       if (!!u) {
         if (typeof u == "string")
-          return ht(u, c);
+          return ft(u, c);
         var s = Object.prototype.toString.call(u).slice(8, -1);
         if (s === "Object" && u.constructor && (s = u.constructor.name), s === "Map" || s === "Set")
           return Array.from(u);
         if (s === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(s))
-          return ht(u, c);
+          return ft(u, c);
       }
     }
-    function ht(u, c) {
+    function ft(u, c) {
       (c == null || c > u.length) && (c = u.length);
       for (var s = 0, g = new Array(c); s < c; s++)
         g[s] = u[s];
@@ -506,7 +506,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       throw new TypeError(`Invalid attempt to destructure non-iterable instance.
 In order to be iterable, non-array objects must have a [Symbol.iterator]() method.`);
     }
-    function ft(u, c) {
+    function pt(u, c) {
       var s;
       if (typeof Symbol > "u" || u[Symbol.iterator] == null) {
         if (Array.isArray(u) || (s = rt(u)) || c && u && typeof u.length == "number") {
@@ -615,7 +615,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }, F = function(u) {
       var c = Ee(u);
       return c.x || c.y ? !0 : u instanceof Document ? u.body ? !!(u.body.scrollTop = 1) : !!(u.documentElement.scrollTop = 1) : !!(u.scrollTop = 1);
-    }, pt = function() {
+    }, ut = function() {
       var u = document.createElement("div");
       return u.style.position = "fixed", u.style.overflow = "hidden", u.style.pointerEvents = "none", u.style.zIndex = "999999999999999999", u;
     }, Q = function(u) {
@@ -1474,7 +1474,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
           var f = i.isDragging;
           f || s.DS.continue || s._handleInsideSelection();
         }), o(this, "_handleInsideSelection", function(i, f) {
-          var y = s.DS, w = y.SelectableSet, D = y.SelectorArea, V = y.Selector, W = w.rects, it = [], wt = [], yt = ft(W), Et;
+          var y = s.DS, w = y.SelectableSet, D = y.SelectorArea, V = y.Selector, W = w.rects, it = [], wt = [], yt = pt(W), Et;
           try {
             for (yt.s(); !(Et = yt.n()).done; ) {
               var at = B(Et.value, 2), _t = at[0], fe = at[1];
@@ -1578,7 +1578,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
           s.currentEdges = [], clearInterval(s._scrollInterval);
         }), o(this, "isInside", function(i, f) {
           return s.DS.Area.HTMLNode.contains(i) && s.DS.stores.ScrollStore.canScroll ? !0 : de(s.rect, f || i.getBoundingClientRect());
-        }), this.DS = g, this.HTMLNode = pt(), this.DS.subscribe("Settings:updated:selectorAreaClass", function(i) {
+        }), this.DS = g, this.HTMLNode = ut(), this.DS.subscribe("Settings:updated:selectorAreaClass", function(i) {
           var f = i.settings;
           s.HTMLNode.classList.remove(f["selectorAreaClass:pre"]), s.HTMLNode.classList.add(f.selectorAreaClass);
         }), this.HTMLNode.classList.add(this.DS.stores.SettingsStore.s.selectorAreaClass), this.DS.subscribe("Area:modified", this.updatePos), this.DS.subscribe("Area:modified", this.updatePos), this.DS.subscribe("Interaction:init", this.start), this.DS.subscribe("Interaction:start", this.startAutoScroll), this.DS.subscribe("Interaction:end", function() {
@@ -2049,7 +2049,7 @@ const ho = Qr.exports, ts = (e, t, r, n, a) => (t = Math, r = t.log, n = 1024, a
         d(m);
       }, 5e3);
     }), (b, m) => (_(), C("div", {
-      class: dt([n.value.value ? "fixed" : "absolute", "bottom-0 max-w-fit flex flex-col bottom-0 left-1/2 -translate-x-1/2"])
+      class: ht([n.value.value ? "fixed" : "absolute", "bottom-0 max-w-fit flex flex-col bottom-0 left-1/2 -translate-x-1/2"])
     }, [
       Tt(_n, {
         name: "vf-toast-item",
@@ -2057,10 +2057,10 @@ const ho = Qr.exports, ts = (e, t, r, n, a) => (t = Math, r = t.log, n = 1024, a
         "leave-to-class": "opacity-0"
       }, {
         default: Z(() => [
-          (_(!0), C(ut, null, Dt(o.value, (h, v) => (_(), C("div", {
+          (_(!0), C(dt, null, Dt(o.value, (h, v) => (_(), C("div", {
             onClick: (S) => l(v),
             key: h,
-            class: dt([a(h.type), "inline-block mx-auto my-0.5 py-0.5 px-2 min-w-max bg-gray-50 dark:bg-gray-600 border text-xs sm:text-sm rounded cursor-pointer"])
+            class: ht([a(h.type), "inline-block mx-auto my-0.5 py-0.5 px-2 min-w-max bg-gray-50 dark:bg-gray-600 border text-xs sm:text-sm rounded cursor-pointer"])
           }, E(h.label), 11, So))), 128))
         ]),
         _: 1
@@ -2560,13 +2560,13 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
       $.type == "dir" ? (r.emit("vf-search-exit"), r.emit("vf-fetch", { params: { q: "index", adapter: t.data.adapter, path: $.path } })) : r.emit("vf-modal-show", { type: "preview", adapter: t.data.adapter, item: $ });
     }, z = Ie({ active: !1, column: "", order: "" }), J = ($ = !0) => {
       let R = [...t.data.files], j = z.column, lt = z.order == "asc" ? 1 : -1;
-      if (!$)
+      if (R = R.map((ut) => ({ ...ut, imageUrl: Fe(o.value, ut.path) })), !$)
         return R;
-      const F = (pt, Q) => typeof pt == "string" && typeof Q == "string" ? pt.toLowerCase().localeCompare(Q.toLowerCase()) : pt < Q ? -1 : pt > Q ? 1 : 0;
-      return z.active && (R = R.slice().sort((pt, Q) => F(pt[j], Q[j]) * lt)), R;
+      const F = (ut, Q) => typeof ut == "string" && typeof Q == "string" ? ut.toLowerCase().localeCompare(Q.toLowerCase()) : ut < Q ? -1 : ut > Q ? 1 : 0;
+      return z.active && (R = R.slice().sort((ut, Q) => F(ut[j], Q[j]) * lt)), R;
     }, ot = ($) => {
       z.active && z.column == $ ? (z.active = z.order == "asc", z.column = $, z.order = "desc") : (z.active = !0, z.column = $, z.order = "asc");
-    }, rt = () => v.value.getSelection().map(($) => JSON.parse($.dataset.item)), ht = ($, R) => {
+    }, rt = () => v.value.getSelection().map(($) => JSON.parse($.dataset.item)), ft = ($, R) => {
       if ($.altKey || $.ctrlKey || $.metaKey)
         return $.preventDefault(), !1;
       $.dataTransfer.setDragImage(m.value, 0, 15), $.dataTransfer.effectAllowed = "all", $.dataTransfer.dropEffect = "copy", $.dataTransfer.setData("items", JSON.stringify(rt()));
@@ -2580,7 +2580,7 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
       r.emit("vf-modal-show", { type: "move", items: { from: j, to: R } });
     }, bt = ($, R) => {
       $.preventDefault(), !R || R.type !== "dir" || v.value.getSelection().find((j) => j == $.currentTarget) ? ($.dataTransfer.dropEffect = "none", $.dataTransfer.effectAllowed = "none") : $.dataTransfer.dropEffect = "copy";
-    }, ft = () => {
+    }, pt = () => {
       v.value = new ho({
         area: b.value,
         keyboardDrag: !1,
@@ -2603,7 +2603,7 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
     }, q = ($, R) => {
       r.emit("vf-file-select", R);
     };
-    return Ct(ft), xn(() => {
+    return Ct(pt), xn(() => {
       v.value.Area.reset(), v.value.SelectorArea.updatePos(), M.update();
     }), Ct(() => {
       je(() => t.view, () => r.emit("vf-explorer-update"));
@@ -2670,16 +2670,16 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
       p("div", {
         onTouchstart: B,
         onContextmenu: R[10] || (R[10] = Zt((j) => x(r).emit("vf-contextmenu-show", { event: j, area: b.value, items: rt() }), ["self", "prevent"])),
-        class: dt([T.value ? "" : "resize-y", "h-full w-full text-xs vf-selector-area min-h-[550px] max-h-[80vh] overflow-auto p-1 z-0"]),
+        class: ht([T.value ? "" : "resize-y", "h-full w-full text-xs vf-selector-area min-h-[550px] max-h-[80vh] overflow-auto p-1 z-0"]),
         ref_key: "selectorArea",
         ref: b
       }, [
-        A.value.length ? (_(!0), C(ut, { key: 0 }, Dt(J(), (j, lt) => (_(), C("div", {
+        A.value.length ? (_(!0), C(dt, { key: 0 }, Dt(J(), (j, lt) => (_(), C("div", {
           onDblclick: (F) => k(j),
           onTouchstart: R[4] || (R[4] = (F) => H(F)),
           onTouchend: R[5] || (R[5] = (F) => N()),
           onContextmenu: Zt((F) => x(r).emit("vf-contextmenu-show", { event: F, area: b.value, items: rt(), target: j }), ["prevent"]),
-          class: dt(["vf-item-" + x(O), "grid grid-cols-1 border hover:bg-neutral-50 dark:hover:bg-gray-700 border-transparent my-0.5 w-full select-none"]),
+          class: ht(["vf-item-" + x(O), "grid grid-cols-1 border hover:bg-neutral-50 dark:hover:bg-gray-700 border-transparent my-0.5 w-full select-none"]),
           "data-type": j.type,
           "data-item": JSON.stringify(j),
           "data-index": lt
@@ -2692,16 +2692,16 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
             p("div", Wi, E(j.path), 1)
           ])
         ], 42, Ni))), 256)) : X("", !0),
-        e.view == "list" && !A.value.length ? (_(!0), C(ut, { key: 1 }, Dt(J(), (j, lt) => (_(), C("div", {
+        e.view == "list" && !A.value.length ? (_(!0), C(dt, { key: 1 }, Dt(J(), (j, lt) => (_(), C("div", {
           draggable: "true",
           onDblclick: (F) => k(j),
           onTouchstart: R[6] || (R[6] = (F) => H(F)),
           onTouchend: R[7] || (R[7] = (F) => N()),
           onContextmenu: Zt((F) => x(r).emit("vf-contextmenu-show", { event: F, area: b.value, items: rt(), target: j }), ["prevent"]),
-          onDragstart: (F) => ht(F),
+          onDragstart: (F) => ft(F),
           onDragover: (F) => bt(F, j),
           onDrop: (F) => St(F, j),
-          class: dt(["vf-item-" + x(O), "grid grid-cols-1 border hover:bg-neutral-50 dark:hover:bg-gray-700 border-transparent my-0.5 w-full select-none"]),
+          class: ht(["vf-item-" + x(O), "grid grid-cols-1 border hover:bg-neutral-50 dark:hover:bg-gray-700 border-transparent my-0.5 w-full select-none"]),
           "data-type": j.type,
           "data-item": JSON.stringify(j),
           "data-index": lt
@@ -2715,19 +2715,19 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
             p("div", na, E(x(es)(j.last_modified)), 1)
           ])
         ], 42, Xi))), 256)) : X("", !0),
-        e.view == "grid" && !A.value.length ? (_(!0), C(ut, { key: 2 }, Dt(J(!1), (j, lt) => {
-          var F, pt;
+        e.view == "grid" && !A.value.length ? (_(!0), C(dt, { key: 2 }, Dt(J(!1), (j, lt) => {
+          var F, ut;
           return _(), C("div", {
             draggable: "true",
             onDblclick: (Q) => k(j),
             onTouchstart: R[8] || (R[8] = (Q) => H(Q)),
             onTouchend: R[9] || (R[9] = (Q) => N()),
             onContextmenu: Zt((Q) => x(r).emit("vf-contextmenu-show", { event: Q, area: b.value, items: rt(), target: j }), ["prevent"]),
-            onDragstart: (Q) => ht(Q),
+            onDragstart: (Q) => ft(Q),
             onDragover: (Q) => bt(Q, j),
             onDrop: (Q) => St(Q, j),
             onClick: (Q) => q(Q, j),
-            class: dt(["vf-item-" + x(O), "border border-transparent hover:bg-neutral-50 m-1 dark:hover:bg-gray-700 inline-flex w-[5.5rem] h-20 md:w-24 text-center justify-center select-none"]),
+            class: ht(["vf-item-" + x(O), "border border-transparent hover:bg-neutral-50 m-1 dark:hover:bg-gray-700 inline-flex w-[5.5rem] h-20 md:w-24 text-center justify-center select-none"]),
             "data-type": j.type,
             "data-item": JSON.stringify(j),
             "data-index": lt
@@ -2737,10 +2737,10 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
                 j.type == "dir" ? (_(), C("svg", aa, ca)) : ((F = j.mime_type) != null ? F : "").startsWith("image") ? (_(), C("img", {
                   key: 1,
                   class: "lazy h-10 md:h-12 m-auto",
-                  "data-src": x(Fe)(x(o).value, j.path),
+                  "data-src": j.imageUrl,
                   alt: j.basename
                 }, null, 8, ua)) : (_(), C("svg", da, fa)),
-                !((pt = j.mime_type) != null ? pt : "").startsWith("image") && j.type != "dir" ? (_(), C("div", pa, E(l(j.extension)), 1)) : X("", !0)
+                !((ut = j.mime_type) != null ? ut : "").startsWith("image") && j.type != "dir" ? (_(), C("div", pa, E(l(j.extension)), 1)) : X("", !0)
               ]),
               p("span", ga, E(d(j.basename)), 1)
             ])
@@ -2891,7 +2891,7 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
             var H, k;
             return !T() || x(r).emit("vf-fetch", { params: { q: "index", adapter: e.data.adapter, path: (k = (H = o.value[o.value.length - 2]) == null ? void 0 : H.path) != null ? k : x(n) + "://" } });
           }),
-          class: dt(["h-6 w-6 p-0.5 rounded", T() ? "text-slate-700 hover:bg-neutral-300 dark:text-neutral-200 dark:hover:bg-gray-700 cursor-pointer" : "text-gray-400 dark:text-neutral-500"]),
+          class: ht(["h-6 w-6 p-0.5 rounded", T() ? "text-slate-700 hover:bg-neutral-300 dark:text-neutral-200 dark:hover:bg-gray-700 cursor-pointer" : "text-gray-400 dark:text-neutral-500"]),
           xmlns: "http://www.w3.org/2000/svg",
           viewBox: "0 0 20 20",
           fill: "currentColor"
@@ -2965,7 +2965,7 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
           fill: "currentColor"
         }, Ia)),
         p("div", La, [
-          (_(!0), C(ut, null, Dt(o.value, (B, H) => (_(), C("div", { key: H }, [
+          (_(!0), C(dt, null, Dt(o.value, (B, H) => (_(), C("div", { key: H }, [
             Oa,
             p("span", {
               class: "px-1.5 py-1 text-slate-700 dark:text-slate-200 hover:bg-neutral-100 dark:hover:bg-gray-800 rounded cursor-pointer",
@@ -3091,7 +3091,7 @@ const Ai = { class: "relative flex-auto flex flex-col overflow-hidden" }, Ii = {
       ref: n,
       style: Jr(o.positions)
     }, [
-      (_(!0), C(ut, null, Dt(o.items, (T) => (_(), C("li", {
+      (_(!0), C(dt, null, Dt(o.items, (T) => (_(), C("li", {
         class: "px-2 py-1.5 cursor-pointer hover:bg-neutral-200 dark:hover:bg-gray-700",
         key: T.title,
         onClick: (M) => m(T)
@@ -3214,10 +3214,10 @@ const el = { class: "vuefinder" }, rl = /* @__PURE__ */ p("iframe", {
       n.emit("vf-fetch", { params: { q: "index", adapter: l.value } });
     }), (N, I) => (_(), C("div", el, [
       p("div", {
-        class: dt(S.value ? "dark" : "")
+        class: ht(S.value ? "dark" : "")
       }, [
         p("div", {
-          class: dt([T.value ? "fixed w-screen inset-0 z-20" : "relative rounded-md", "border flex flex-col bg-white dark:bg-gray-800 text-gray-700 dark:text-neutral-400 border-neutral-300 dark:border-gray-900 min-w-min select-none"]),
+          class: ht([T.value ? "fixed w-screen inset-0 z-20" : "relative rounded-md", "border flex flex-col bg-white dark:bg-gray-800 text-gray-700 dark:text-neutral-400 border-neutral-300 dark:border-gray-900 min-w-min select-none"]),
           style: Jr(T.value ? "" : "max-height: " + e.maxHeight),
           onMousedown: I[0] || (I[0] = (B) => x(n).emit("vf-contextmenu-hide")),
           onTouchstart: I[1] || (I[1] = (B) => x(n).emit("vf-contextmenu-hide"))
@@ -3309,7 +3309,7 @@ const el = { class: "vuefinder" }, rl = /* @__PURE__ */ p("iframe", {
         key: 0,
         ref_key: "strMessage",
         ref: a,
-        class: dt(["flex mt-1 p-1 px-2 rounded text-sm", e.error ? "bg-red-100 text-red-600" : "bg-emerald-100 text-emerald-600"])
+        class: ht(["flex mt-1 p-1 px-2 rounded text-sm", e.error ? "bg-red-100 text-red-600" : "bg-emerald-100 text-emerald-600"])
       }, [
         Ze(b.$slots, "default"),
         p("div", {
@@ -3415,7 +3415,7 @@ const el = { class: "vuefinder" }, rl = /* @__PURE__ */ p("iframe", {
             p("h3", vl, E(x(a)("Delete files")), 1),
             p("div", bl, [
               p("p", yl, E(x(a)("Are you sure you want to delete these files?")), 1),
-              (_(!0), C(ut, null, Dt(o.value, (h) => (_(), C("p", Sl, [
+              (_(!0), C(dt, null, Dt(o.value, (h) => (_(), C("p", Sl, [
                 h.type == "dir" ? (_(), C("svg", wl, xl)) : (_(), C("svg", kl, Cl)),
                 p("span", El, E(h.basename), 1)
               ]))), 256)),
@@ -3706,7 +3706,7 @@ const el = { class: "vuefinder" }, rl = /* @__PURE__ */ p("iframe", {
         b.value = h(T.message), m.value = !0;
       });
     };
-    return (T, M) => (_(), C(ut, null, [
+    return (T, M) => (_(), C(dt, null, [
       p("div", sc, [
         p("div", {
           class: "mb-2 text-lg leading-6 font-medium text-gray-900 dark:text-gray-400",
@@ -4150,26 +4150,26 @@ function Nc(e) {
   };
 }
 function jc(e, t, r, n) {
-  var a = t.aspectRatio, o = t.naturalWidth, l = t.naturalHeight, d = t.rotate, b = d === void 0 ? 0 : d, m = t.scaleX, h = m === void 0 ? 1 : m, v = t.scaleY, S = v === void 0 ? 1 : v, O = r.aspectRatio, T = r.naturalWidth, M = r.naturalHeight, A = n.fillColor, U = A === void 0 ? "transparent" : A, N = n.imageSmoothingEnabled, I = N === void 0 ? !0 : N, B = n.imageSmoothingQuality, H = B === void 0 ? "low" : B, k = n.maxWidth, z = k === void 0 ? 1 / 0 : k, J = n.maxHeight, ot = J === void 0 ? 1 / 0 : J, rt = n.minWidth, ht = rt === void 0 ? 0 : rt, St = n.minHeight, bt = St === void 0 ? 0 : St, ft = document.createElement("canvas"), q = ft.getContext("2d"), $ = Rt({
+  var a = t.aspectRatio, o = t.naturalWidth, l = t.naturalHeight, d = t.rotate, b = d === void 0 ? 0 : d, m = t.scaleX, h = m === void 0 ? 1 : m, v = t.scaleY, S = v === void 0 ? 1 : v, O = r.aspectRatio, T = r.naturalWidth, M = r.naturalHeight, A = n.fillColor, U = A === void 0 ? "transparent" : A, N = n.imageSmoothingEnabled, I = N === void 0 ? !0 : N, B = n.imageSmoothingQuality, H = B === void 0 ? "low" : B, k = n.maxWidth, z = k === void 0 ? 1 / 0 : k, J = n.maxHeight, ot = J === void 0 ? 1 / 0 : J, rt = n.minWidth, ft = rt === void 0 ? 0 : rt, St = n.minHeight, bt = St === void 0 ? 0 : St, pt = document.createElement("canvas"), q = pt.getContext("2d"), $ = Rt({
     aspectRatio: O,
     width: z,
     height: ot
   }), R = Rt({
     aspectRatio: O,
-    width: ht,
+    width: ft,
     height: bt
   }, "cover"), j = Math.min($.width, Math.max(R.width, T)), lt = Math.min($.height, Math.max(R.height, M)), F = Rt({
     aspectRatio: a,
     width: z,
     height: ot
-  }), pt = Rt({
+  }), ut = Rt({
     aspectRatio: a,
-    width: ht,
+    width: ft,
     height: bt
-  }, "cover"), Q = Math.min(F.width, Math.max(pt.width, o)), le = Math.min(F.height, Math.max(pt.height, l)), ce = [-Q / 2, -le / 2, Q, le];
-  return ft.width = re(j), ft.height = re(lt), q.fillStyle = U, q.fillRect(0, 0, j, lt), q.save(), q.translate(j / 2, lt / 2), q.rotate(b * Math.PI / 180), q.scale(h, S), q.imageSmoothingEnabled = I, q.imageSmoothingQuality = H, q.drawImage.apply(q, [e].concat(As(ce.map(function(Ce) {
+  }, "cover"), Q = Math.min(F.width, Math.max(ut.width, o)), le = Math.min(F.height, Math.max(ut.height, l)), ce = [-Q / 2, -le / 2, Q, le];
+  return pt.width = re(j), pt.height = re(lt), q.fillStyle = U, q.fillRect(0, 0, j, lt), q.save(), q.translate(j / 2, lt / 2), q.rotate(b * Math.PI / 180), q.scale(h, S), q.imageSmoothingEnabled = I, q.imageSmoothingQuality = H, q.drawImage.apply(q, [e].concat(As(ce.map(function(Ce) {
     return Math.floor(re(Ce));
-  })))), q.restore(), ft;
+  })))), q.restore(), pt;
 }
 var Us = String.fromCharCode;
 function zc(e, t, r) {
@@ -4775,12 +4775,12 @@ var Kc = {
     A.width = re(T), A.height = re(M), U.fillStyle = t.fillColor || "transparent", U.fillRect(0, 0, T, M);
     var N = t.imageSmoothingEnabled, I = N === void 0 ? !0 : N, B = t.imageSmoothingQuality;
     U.imageSmoothingEnabled = I, B && (U.imageSmoothingQuality = B);
-    var H = n.width, k = n.height, z = o, J = l, ot, rt, ht, St, bt, ft;
-    z <= -d || z > H ? (z = 0, ot = 0, ht = 0, bt = 0) : z <= 0 ? (ht = -z, z = 0, ot = Math.min(H, d + z), bt = ot) : z <= H && (ht = 0, ot = Math.min(d, H - z), bt = ot), ot <= 0 || J <= -b || J > k ? (J = 0, rt = 0, St = 0, ft = 0) : J <= 0 ? (St = -J, J = 0, rt = Math.min(k, b + J), ft = rt) : J <= k && (St = 0, rt = Math.min(b, k - J), ft = rt);
+    var H = n.width, k = n.height, z = o, J = l, ot, rt, ft, St, bt, pt;
+    z <= -d || z > H ? (z = 0, ot = 0, ft = 0, bt = 0) : z <= 0 ? (ft = -z, z = 0, ot = Math.min(H, d + z), bt = ot) : z <= H && (ft = 0, ot = Math.min(d, H - z), bt = ot), ot <= 0 || J <= -b || J > k ? (J = 0, rt = 0, St = 0, pt = 0) : J <= 0 ? (St = -J, J = 0, rt = Math.min(k, b + J), pt = rt) : J <= k && (St = 0, rt = Math.min(b, k - J), pt = rt);
     var q = [z, J, ot, rt];
-    if (bt > 0 && ft > 0) {
+    if (bt > 0 && pt > 0) {
       var $ = T / d;
-      q.push(ht * $, St * $, bt * $, ft * $);
+      q.push(ft * $, St * $, bt * $, pt * $);
     }
     return U.drawImage.apply(U, [n].concat(As(q.map(function(R) {
       return Math.floor(re(R));
@@ -4967,7 +4967,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
     };
     return Ct(() => {
       t("load");
-    }), (O, T) => (_(), C(ut, null, [
+    }), (O, T) => (_(), C(dt, null, [
       p("div", Gc, [
         p("h3", {
           class: "mb-2 text-lg leading-6 font-medium text-gray-900 dark:text-gray-400",
@@ -5018,7 +5018,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
   setup(e, { emit: t }) {
     return Ct(() => {
       t("load");
-    }), (r, n) => (_(), C(ut, null, [
+    }), (r, n) => (_(), C(dt, null, [
       p("div", su, [
         p("h3", {
           class: "mb-2 text-lg leading-6 font-medium text-gray-900 dark:text-gray-400",
@@ -5045,7 +5045,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
     const r = e, { apiUrl: n } = Lt(), a = () => n.value + "?" + Gt({ q: "preview", adapter: r.selection.adapter, path: r.selection.item.path });
     return Ct(() => {
       t("load");
-    }), (o, l) => (_(), C(ut, null, [
+    }), (o, l) => (_(), C(dt, null, [
       p("h3", {
         class: "mb-2 text-lg leading-6 font-medium text-gray-900 dark:text-gray-400",
         id: "modal-title",
@@ -5077,7 +5077,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
     const r = e, { apiUrl: n } = Lt(), a = () => n.value + "?" + Gt({ q: "preview", adapter: r.selection.adapter, path: r.selection.item.path });
     return Ct(() => {
       t("load");
-    }), (o, l) => (_(), C(ut, null, [
+    }), (o, l) => (_(), C(dt, null, [
       p("h3", {
         class: "mb-2 text-lg leading-6 font-medium text-gray-900 dark:text-gray-400",
         id: "modal-title",
@@ -5106,7 +5106,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
     const r = e, { apiUrl: n } = Lt(), a = () => n.value + "?" + Gt({ q: "preview", adapter: r.selection.adapter, path: r.selection.item.path });
     return Ct(() => {
       t("load");
-    }), (o, l) => (_(), C(ut, null, [
+    }), (o, l) => (_(), C(dt, null, [
       p("h3", {
         class: "mb-2 text-lg leading-6 font-medium text-gray-900 dark:text-gray-400",
         id: "modal-title",
@@ -5434,7 +5434,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
           disabled: v.value,
           onClick: Zt(S, ["prevent"]),
           type: "button",
-          class: dt([v.value ? "bg-blue-200 hover:bg-blue-200 dark:bg-gray-700/50 dark:hover:bg-gray-700/50 dark:text-gray-500" : "bg-blue-600 hover:bg-blue-700 dark:bg-gray-700 dark:hover:bg-gray-500", "w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"])
+          class: ht([v.value ? "bg-blue-200 hover:bg-blue-200 dark:bg-gray-700/50 dark:hover:bg-gray-700/50 dark:text-gray-500" : "bg-blue-600 hover:bg-blue-700 dark:bg-gray-700 dark:hover:bg-gray-500", "w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"])
         }, E(x(a)("Upload")), 11, Qu),
         p("button", {
           type: "button",
@@ -5449,7 +5449,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
             p("h3", Zu, E(x(a)("Upload files")), 1),
             p("div", qu, [
               p("div", Fu, [
-                (_(!0), C(ut, null, Dt(m.value, (A) => (_(), C("div", null, [
+                (_(!0), C(dt, null, Dt(m.value, (A) => (_(), C("div", null, [
                   p("div", {
                     id: A.id
                   }, [
@@ -5580,7 +5580,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
           p("div", nd, [
             p("h3", od, E(x(a)("Archive the files")), 1),
             p("div", id, [
-              (_(!0), C(ut, null, Dt(d.value, (v) => (_(), C("p", ad, [
+              (_(!0), C(dt, null, Dt(d.value, (v) => (_(), C("p", ad, [
                 v.type == "dir" ? (_(), C("svg", ld, ud)) : (_(), C("svg", dd, fd)),
                 p("span", pd, E(v.basename), 1)
               ]))), 256)),
@@ -5703,7 +5703,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
           p("div", Sd, [
             p("h3", wd, E(x(a)("Unarchive")), 1),
             p("div", _d, [
-              (_(!0), C(ut, null, Dt(d.value, (v) => (_(), C("p", xd, [
+              (_(!0), C(dt, null, Dt(d.value, (v) => (_(), C("p", xd, [
                 v.type == "dir" ? (_(), C("svg", kd, Cd)) : (_(), C("svg", Ed, Td)),
                 p("span", $d, E(v.basename), 1)
               ]))), 256)),
@@ -5831,7 +5831,7 @@ const Gc = { class: "flex" }, Jc = ["aria-label"], Qc = { class: "ml-auto mb-2" 
           p("div", Nd, [
             p("h3", jd, E(x(n)("Move files")), 1),
             p("div", zd, [
-              (_(!0), C(ut, null, Dt(o.value, (h) => (_(), C("p", Rd, [
+              (_(!0), C(dt, null, Dt(o.value, (h) => (_(), C("p", Rd, [
                 h.type == "dir" ? (_(), C("svg", Hd, Bd)) : (_(), C("svg", Ud, Yd)),
                 p("span", Wd, E(h.path), 1)
               ]))), 256)),
